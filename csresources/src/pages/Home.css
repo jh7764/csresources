@@ -1,0 +1,136 @@
+/* ── Reset ───────────────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+/* ── Page Layout ─────────────────────────── */
+.home {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  font-family: 'Segoe UI';
+  color: #e8e8e8;
+  justify-content: center;
+}
+
+
+/* ── Header ──────────────────────────────── */
+.home-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e8e8e8;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.5px;
+}
+
+.home-subtitle {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1.2rem;
+}
+
+/* ── Search Bar ──────────────────────────── */
+.home-search {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #1e1e1e;
+  color: #ddd;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.home-search:focus {
+  border-color: #555;
+}
+
+.home-search::placeholder {
+  color: #555;
+}
+
+
+
+/* ── Sections ────────────────────────────── */
+.section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+/* ── Resource Items ──────────────────────── */
+.section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.resource-item {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.resource-item:hover {
+  background: #1e1e1e;
+}
+
+/* ── Spans ───────────────────────────────── */
+.resource-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #4ea8de;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.resource-item:hover .resource-name {
+  color: #6dbfff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.resource-sep {
+  color: #444;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.resource-desc {
+  font-size: 0.85rem;
+  color: #888;
+  text-overflow: ellipsis;
+}
+
+.resource-note {
+  font-size: 0.78rem;
+  color: #cfa03b;
+  flex-shrink: 0;
+  font-style: italic;
+  width: 100%;
+}
