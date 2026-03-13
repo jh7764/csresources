@@ -1,7 +1,8 @@
 html, body {
   padding: 0;
   margin: 0;
-  font-family: 'Segoe UI' !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  cursor: pointer;
 }
 
 .bm-burger-button {
@@ -58,8 +59,8 @@ html, body {
   margin-bottom: 1.2em;
   transition: color 0.2s ease;
   outline: none;
-  font-family: 'Segoe UI' !important;
-  cursor: default;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  cursor: pointer;
 }
 
 .bm-item:hover {

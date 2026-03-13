@@ -6,7 +6,7 @@ import { SiGoogleclassroom } from "react-icons/si";
 import { GoHome } from "react-icons/go";
 import { VscTools } from "react-icons/vsc";
 import { LuBot, LuContact } from "react-icons/lu";
-import { IoLibraryOutline } from "react-icons/io5";
+import { RiContactsBook2Line } from "react-icons/ri";
 import { MdDeveloperBoard, MdOutlineLocalLibrary } from "react-icons/md";
 import './Navbar.css'
 
@@ -54,7 +54,7 @@ const Navbar = () => {
         Other Tools
       </a>
       <a className='menu-item' onClick={() => scrollTo('contact')}>
-        <LuContact className='menu-icon' size={30} />
+        <RiContactsBook2Line className='menu-icon' size={30} />
         Questions & Suggestions
       </a>
       
