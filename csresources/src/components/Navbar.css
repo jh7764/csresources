@@ -59,6 +59,7 @@ html, body {
   transition: color 0.2s ease;
   outline: none;
   font-family: 'Segoe UI' !important;
+  cursor: default;
 }
 
 .bm-item:hover {

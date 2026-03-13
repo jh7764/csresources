@@ -155,6 +155,11 @@ const resources = [
                 url:"https://coq.vercel.app/scratchpad.html",
                 description: "Browser-based Coq proof scratchpad."
             },
+            {
+                name: "CS444 - Operating Systems: Three Easy Pieces",
+                url: "https://pages.cs.wisc.edu/~remzi/OSTEP/",
+                description: "Free online operating system book with each chapter being <20 (most are 10-14) pages and coding examples"
+            }
         ]
         
     },
@@ -259,7 +264,7 @@ const resources = [
         ]
     },
     {
-        category: "Questions & Suggestions", id: "questions",
+        category: "Questions & Suggestions", id: "contact",
         items: [
             {
                 name: "Contact",

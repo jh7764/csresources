@@ -18,7 +18,7 @@ const Home = () => {
     <div className="home">
       <div className="home-header">
         <h1 className="home-title">CS Resources</h1>
-        <p className="home-subtitle">An index of the best computer science tools and sites to help students of all levels</p>
+        <p className="home-subtitle">An index of the best free computer science tools and sites to help students of all levels</p>
         <input
           className="home-search"
           type="text"
