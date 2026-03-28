@@ -16,9 +16,10 @@ A student-built index of computer science tools, courses and sites. Whether you'
 
 ## Tech Stack
 
-- **React** — component-based UI
-- **CSS** — custom styling
+- **React** 
+- **CSS** 
 - **JavaScript**
+- **Deployed by GH pages**
 
 ## Questions or Suggestions?
 
