@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import './Home.css'
+import './Resources.css'
 import resources from '../data/resources'
 
-const Home = () => {
+const Resources = () => {
   const [search, setSearch] = useState('');
 
   const filtered = resources.map(section => ({
@@ -15,12 +15,12 @@ const Home = () => {
   })).filter(section => section.items.length > 0);
 
   return (
-    <div className="home">
-      <div className="home-header">
-        <h1 className="home-title">CS Resources</h1>
-        <p className="home-subtitle">An index of the best free computer science tools and sites to help students of all levels</p>
+    <div className="">
+      <div className="resources-header">
+        <h1 className="resources-title">CS Resources</h1>
+        <p className="resources-subtitle">An index of the best free computer science tools and sites to help students of all levels</p>
         <input
-          className="home-search"
+          className="resources-search"
           type="text"
           placeholder="Search resources..."
           value={search}
@@ -28,7 +28,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="home-content">
+      <div className="resources-content">
         {filtered.map(section => (
           <div className="section" key={section.category} id={section.id}>
             <h2 className="section-title">{section.category}</h2>
@@ -55,4 +55,4 @@ const Home = () => {
   );
 }
 
-export default Home;
+export default Resources;
