@@ -1,9 +1,19 @@
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
-  cursor: pointer;
+.resources-toggle {
+  display: inline-block;
+  align-items: left;
+  margin-bottom: 10px;
 }
+
+.menu-chevron {
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.resources-submenu.open {
+  max-height: 900px; /* tall enough for all items */
+}
+
+/* Subcategory items — indented with a left accent */
 
 .bm-burger-button {
   position: fixed;
@@ -52,18 +62,19 @@ html, body {
   padding: 0.8em;
 }
 
-.bm-item {
+.menu-item.sub {
   display: block;
   color: #b8b7ad;
   text-decoration: none;
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
+  font-size: 17px;
   transition: color 0.2s ease;
   outline: none;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
   cursor: pointer;
 }
 
-.bm-item:hover {
+.menu-item:hover {
   color: #4ea8de;
 }
 
