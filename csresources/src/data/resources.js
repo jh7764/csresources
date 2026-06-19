@@ -263,17 +263,6 @@ const resources = [
             }
         ]
     },
-    {
-        category: "Questions & Suggestions", id: "contact",
-        items: [
-            {
-                name: "Contact",
-                url: "mailto:jenna.hayek001@umb.edu",
-                description: "Feel free to contact me at jenna.hayek001@umb.edu | discord @jennahayek"
-            }
-        ]
-
-    }
 ]
 
 export default resources;
